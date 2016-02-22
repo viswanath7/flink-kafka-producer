@@ -7,7 +7,7 @@ Please check the [consumer module](https://github.com/viswanath7/flink-kafka-con
 
 ## Target architecture
 
-In the target architecture diagram shown below, this module implements kafka flink producer that mocks a web-application producing json events by reading a [bundled CSV file](src/main/resources/dataset/events.csv "bundled CSV file conatining events represented as JSON messages").
+In the target architecture diagram shown below, this module implements kafka flink producer that mocks a web-application producing json events, by reading a [bundled CSV file](src/main/resources/dataset/events.csv "bundled CSV file conatining events represented as JSON messages").
 
 ![Target architecture](src/main/documentation/target-architecture.png "Target architecture")
 
