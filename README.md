@@ -4,12 +4,15 @@ Demonstrates how one can integrate [kafka](http://kafka.apache.org/ "apache kafk
  
 Please check the [consumer module](https://github.com/viswanath7/flink-kafka-consumer "Related consumer module") in conjunction with this producer for completion.
 
-----------
 
 ## Target architecture
 
 In the target architecture diagram shown below, this module implements kafka flink producer that mocks a web-application producing json events by reading a [bundled CSV file](src/main/resources/dataset/events.csv "bundled CSV file conatining events represented as JSON messages").
 
-![Target architecture](src/main/documentation/target-architecture.png "Target arcgitecture")
+![Target architecture](src/main/documentation/target-architecture.png "Target architecture")
 
-----------
+## Wiki
+
+For more detailed information, kindly refer to the [wiki section](https://github.com/viswanath7/flink-kafka-producer/wiki "wiki") of this project. 
+
+
